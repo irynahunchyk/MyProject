@@ -1,0 +1,25 @@
+.footer {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  &-item {
+    list-style: none;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    &-option {
+      margin: 20px 0px;
+      text-decoration: none;
+      color: black;
+      font-family: "Raleway";
+      font-size: 16px;
+      font-weight: 200;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}

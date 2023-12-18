@@ -1,0 +1,49 @@
+.cart {
+    margin: 40px 0px;
+  &-title {
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  &-empty {
+    margin: 70px 0px 300px 0px;
+  }
+  &-item {
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    vertical-align: middle;
+    &-img {
+        width: 20%;
+    }
+  }
+  &-price {
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin: 30px 0px;
+  }
+  &-text-container {
+    text-align: right;
+  }
+  &-btn {
+    &-clear {
+        background: none;
+        padding: 7px 10px;
+        border: 1px solid black;
+    }
+    &-clear:hover {
+        background: rgba(224, 190, 162, 1);
+        color: white;
+        border: 1px solid rgba(224, 190, 162, 1);
+    }
+  }
+}

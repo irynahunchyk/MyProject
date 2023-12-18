@@ -1,0 +1,30 @@
+.home {
+  position: relative;
+  &-bg {
+    width: 100%;
+  }
+  &-text {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  &-title {
+    font-family: "Raleway";
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  &-btn {
+    font-family: "Raleway";
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}

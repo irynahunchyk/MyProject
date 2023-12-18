@@ -1,0 +1,75 @@
+.product {
+  margin: 90px 0px;
+  display: flex;
+  justify-content: space-around;
+  &-img {
+    width: 35%;
+  }
+  &-category {
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+  &-title {
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin: 30px 0px;
+  }
+  &-description {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin: 50px 0px;
+    &-container {
+      margin-left: 100px;
+    }
+  }
+  &-price {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+  }
+  &-btn {
+    margin-top: 50px;
+    &-cart {
+      background: rgba(224, 190, 162, 1);
+      border: 1px solid rgba(224, 190, 162, 1);
+      font-family: "Raleway";
+      font-size: 20px;
+      font-weight: 200;
+      line-height: 16px;
+      letter-spacing: 0em;
+      color: white;
+      padding: 20px 40px;
+    }
+    &-cart:hover {
+      background: white;
+      color: rgba(224, 190, 162, 1);
+    }
+    &-favorite {
+        font-family: "Raleway";
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 16px;
+        letter-spacing: 0em;
+        color: black;
+        padding: 20px 40px;
+        border: 1px solid  black;
+        margin-left: 20px;
+    }
+    &-favorite:hover {
+      background: rgba(224, 190, 162, 1);
+      color: white;
+      border: 1px solid rgba(224, 190, 162, 1);
+    }
+  }
+}

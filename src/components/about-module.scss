@@ -1,0 +1,19 @@
+.about {
+    &-title {
+        font-family: "Raleway";
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 30px 0px;
+    }
+    &-text {
+        font-family: "Raleway";
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 25px;
+        letter-spacing: 0em;
+        margin: 50px 0px;
+    }
+}
